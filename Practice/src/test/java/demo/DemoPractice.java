@@ -16,5 +16,6 @@ public void practiceMethod()
 	options.addArguments("--remote-allow-origins=*");
 	WebDriver driver=new ChromeDriver(options);
 	driver.get("https://www.facebook.com/");
+	System.out.println("done");
 }
 }
