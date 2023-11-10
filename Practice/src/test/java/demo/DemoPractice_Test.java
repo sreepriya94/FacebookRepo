@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class DemoPractice {
+public class DemoPractice_Test {
 	@Test
 public void practiceMethod()
 {
