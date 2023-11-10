@@ -11,11 +11,13 @@ public class DemoPractice_Test {
 	@Test
 public void practiceMethod()
 {
+   System.out.println("done");
 	WebDriverManager.chromedriver().setup();
 	ChromeOptions options=new ChromeOptions();
 	options.addArguments("--remote-allow-origins=*");
 	WebDriver driver=new ChromeDriver(options);
 	driver.get("https://www.facebook.com/");
 	System.out.println("done");
+	driver.quit();
 }
 }
